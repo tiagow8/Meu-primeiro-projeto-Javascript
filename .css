@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2? family = Baloo + Bhaijaan + 2 & display = swap");
+
+* {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+body {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(182, 255, 0);
+}
+
+p {
+  font-family: "Open-Sans";
+  font-size: 20px;
+}
+#counter {
+  display: flex;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #ff6800;
+  background-color: #f3ddf3;
+  color: rgb(255, 73, 32);
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+#currentNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 16pt;
+}
